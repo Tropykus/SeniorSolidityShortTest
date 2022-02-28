@@ -28,7 +28,7 @@ In the following text, we use the terms "user" and "bank customer" interchangeab
 7. Each state-changing function defined in the `IBank` interface, must emit the corresponding event defined at the top of that interface with the correct parameters as specified in the code comments for each event.
 
 ### Non-Functional Requirements
-1. The implementation **MUST** use Solidity version 0.7.0. Neither other specific version is going to be considered nor a range that even includes the specified version.
+1. The implementation **MUST** use Solidity version 0.8.0. Neither other specific version is going to be considered nor a range that even includes the specified version.
 
 ### Mandatory Interface
 The interface has been provided at the [contracts folder](/contracts/IBank.sol).
